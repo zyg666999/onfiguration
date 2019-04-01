@@ -28,7 +28,7 @@ spring:
   resources:
     static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
 server:
-  port: 8881
+  port: 8328
 eureka:
   client:
     service-url:
