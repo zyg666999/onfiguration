@@ -2,7 +2,7 @@ spring:
   application:
     name: application
   datasource:
-    url: jdbc:mysql://118.24.96.157:3306/bs_user?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://118.24.96.157:3306/bishe?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 5189003
     driver-class-name: com.mysql.jdbc.Driver
