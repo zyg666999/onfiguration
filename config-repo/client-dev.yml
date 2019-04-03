@@ -70,7 +70,7 @@ mybatis-plus:
     #配置JdbcTypeForNull, oracle数据库必须配置
     jdbc-type-for-null: 'null'
 server:
-  port: 8328
+  port: 8156
 eureka:
   client:
     service-url:
