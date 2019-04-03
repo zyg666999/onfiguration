@@ -30,7 +30,7 @@ spring:
     mode: HTML5
     encoding: UTF-8
     enabled: true
-    content-type: text/html; charset=utf-8
+    content-type: text/html
     check-template: true
     cache: false
     check-template-location: true
