@@ -34,6 +34,8 @@ spring:
     check-template: true
     cache: false
     check-template-location: true
+    servlet:
+      content-type: text/html;charset=utf-8
   resources:
     static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
 mybatis-plus:
