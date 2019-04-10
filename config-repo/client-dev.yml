@@ -1,9 +1,9 @@
 spring:
   application:
     name: application
-  servlet:
+  http:
     multipart:
-      max-file-size: 10MB
+      maxFileSize: 10Mb
   datasource:
     url: jdbc:mysql://118.24.96.157:3306/bishe?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
