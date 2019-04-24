@@ -4,6 +4,16 @@ spring:
   http:
     multipart:
       maxFileSize: 10Mb
+  host: 192.168.233.133
+    port: 6379
+    database: 0
+    password: 123456
+    pool:
+      max-active: 4
+      max-idle: 4
+      min-idle: 0
+      max-wait: 0
+      timeout: 30
   datasource:
     url: jdbc:mysql://192.168.233.133:3306/bishe?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
