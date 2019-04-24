@@ -4,7 +4,8 @@ spring:
   http:
     multipart:
       maxFileSize: 10Mb
-  host: 192.168.233.133
+  redis:
+    host: 192.168.233.133
     port: 6379
     database: 0
     password: 123456
